@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        /* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.customer-contact {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+
+.customer-info {
+    flex: 1;
+    max-width: 400px;
+}
+
+.customer-info h2 {
+    font-size: 24px;
+    color: #2b2b2b;
+}
+
+.highlight {
+    color: #ff5722;
+}
+
+.customer-info p {
+    margin: 10px 0 25px;
+    color: #666;
+    font-size: 12px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin: 13px;
+  
+    
+}
+
+.contentlogo{
+width: 50px;
+height: 50px;
+background-color: #EAF0EC;
+border-radius: 50%;
+
+}
+
+.whatsapp-button {
+    background-color: transparent;
+    color: #ff5722;
+    border: 1px solid #ff5722;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+   padding-bottom: px;
+}
+
+.customer-form {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f0f5f4;
+    border-radius: 8px;
+}
+
+.customer-form h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.customer-form p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group input,
+.customer-form input,
+.customer-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.customer-form textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+.submit-btn {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+
+
+<body>
+
+<div class="customer-contact">
+    <div class="customer-info">
+        <h2>Contact <span class="highlight">Us</span></h2>
+        <p>We're here to help! Get in touch for any <br> questions or assistance.</p>
+        
+        <div class="contact-item">
+            
+            <div class="contentlogo">
+                <img src="highbroimage/sms.png" alt="Email Icon" class="icon">
+            </div>
+            <span>example@gmail.com</span>
+        </div>
+        
+        <div class="contact-item">
+           
+            <div class="contentlogo">
+                <img src="highbroimage/call-received.png" alt="Phone Icon" class="icon">
+            </div>
+            <span>+92 300 000000</span>
+        </div>
+        
+        <div class="contact-item">
+
+            <div class="contentlogo">
+                <img src="highbroimage/location.png" alt="Location Icon" class="icon">
+            </div>
+            
+            <span>Opposite Saint Mary School, Tulsa Road,<br> Lalazar, Rawalpindi, Pakistan</span>
+        </div>
+        
+        <button class="whatsapp-button">Whatsapp
+            <img src="highbroimage/logos_whatsapp-icon.png" alt="" width="23.81px" height="24px">
+        </button>
+    </div>
+
+    <div class="customer-form">
+        <h3>Get in touch</h3>
+        <p>We are available 24/7 for you!</p>
+        
+        <form>
+            <div class="input-group">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+            </div>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <textarea placeholder="How can we help you!" required></textarea>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

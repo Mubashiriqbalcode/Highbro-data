@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fees Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        .fees-section {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+
+        .fees-section h2 {
+            font-size: 18px;
+            color: #4d9e39;
+            margin-bottom: 10px;
+        }
+
+        .fees-section h2 span {
+            color: #ff5a00;
+        }
+
+        .fees-section p {
+            color: #666;
+            font-size: 12px;
+            margin-bottom: 40px;
+            line-height: 15px;
+        }
+
+        .fee-cards {
+            display: flex;
+            justify-content: space-around;
+            width: 86%;
+            margin: 0 auto;
+        }
+
+        .fee-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: left;
+            width: 22%;
+            min-height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 15px;
+        }
+
+        .fee-card h3 {
+            font-size: 17px;
+            color: #333;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        .fee-card p {
+            color: #777;
+            font-size: 12px;
+            margin: 0;
+            margin-bottom: 20px;
+            line-height: 15px;
+        }
+
+        .fee-card .arrow {
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f2f2f2;
+            border-radius: 50%;
+            font-size: 1.2em;
+            color: #333;
+            margin-top: auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Color variations for each card */
+        .fee-card:nth-child(1) { background-color: #ffe5e5; }
+        .fee-card:nth-child(2) { background-color: #e5f2ff; }
+        .fee-card:nth-child(3) { background-color: #ffece5; }
+        .fee-card:nth-child(4) { background-color: #e5ffe5; }
+
+        /* New Hostel Fees Section */
+        .hostel-fees-section {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hostel-fees-section h2 {
+            font-size: 18px;
+            color: #4d9e39;
+            margin-bottom: 10px;
+        }
+
+        .hostel-fee-cards {
+            display: flex;
+            justify-content: center;
+            width: 72%;
+            margin: 0 auto;
+        }
+
+        .hostel-fee-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: left;
+            width: 22%;
+            min-height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 15px;
+        }
+
+        .hostel-fee-card h3 {
+            font-size: 17px;
+            color: #333;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        .hostel-fee-card p {
+            color: #777;
+            font-size: 12px;
+            margin: 0;
+            margin-bottom: 20px;
+            line-height: 15px;
+        }
+
+        .hostel-fee-card .arrow {
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f2f2f2;
+            border-radius: 50%;
+            font-size: 1.2em;
+            color: #333;
+            margin-top: auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Color variations for hostel fee cards */
+        .hostel-fee-card:nth-child(1) { background-color: #ffe5e5; }
+        .hostel-fee-card:nth-child(2) { background-color: #e5ffe5; }
+    </style>
+</head>
+<body>
+
+<div class="fees-section">
+    <h2>Transparent and <span>Affordable</span> Fees</h2>
+    <p>Our fees are structured to be clear and affordable, covering both school tuition and boarding <br> expenses. Below is a detailed breakdown of the costs associated with enrollment at Highbrows <br>Forces School & Academy.</p>
+    
+    <div class="fee-cards">
+        <div class="fee-card">
+            <h3>5th grade fee</h3>
+            <p>Everything you need to <br> know about school fees <br>at a glance.</p>
+            <div class="arrow">→</div>
+        </div>
+        <div class="fee-card">
+            <h3>6th grade fee</h3>
+            <p>Pay only for what you <br> need with our clearly <br>defined pricing.</p>
+            <div class="arrow">→</div>
+        </div>
+        <div class="fee-card">
+            <h3>7th grade fee</h3>
+            <p>Our plans come with a <br>promise of quality and <br>dedicated support.</p>
+            <div class="arrow">→</div>
+        </div>
+        <div class="fee-card">
+            <h3>8th grade fee</h3>
+            <p>Invest in education that <br>shapes a brighter <br>tomorrow.</p>
+            <div class="arrow">→</div>
+        </div>
+    </div>
+</div>
+
+<div class="hostel-fees-section">
+    <h2>Hostel Fees</h2>
+    <div class="hostel-fee-cards">
+        <div class="hostel-fee-card">
+            <h3>Shared Room</h3>
+            <p>Affordable shared living <br> with all essential <br> amenities included.</p>
+            <div class="arrow">→</div>
+        </div>
+        <div class="hostel-fee-card">
+            <h3>Private Room</h3>
+            <p>Enjoy privacy and <br>personalized comfort in <br>your own space.</p>
+            <div class="arrow">→</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
